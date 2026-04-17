@@ -21,20 +21,43 @@
         <header>
             <section id="hero">
                 <video autoplay loop muted plays-inline class="mp4-vdo">
-                   <source src="./img/stock-footage-owl-sitting-in-the-dark-owl-eyes-glow-in-the-dark-animation-cartoon-halloween.mp4" type="video/mp4">
-                </video>
+                    <source src="./img/stock-footage-owl-sitting-in-the-dark-owl-eyes-glow-in-the-dark-animation-cartoon-halloween.mp4" type="video/mp4">
+                 </video>
+                 <h1>Number Guessing Game!</h1>
+                
+                    <div class=" row game-box">
+                        <div class="number-box col-7">
+                        <h2>My Number is:</h2>
+                        <input class="input" type="password" placeholder="Enter Number">
+                        </div>
+                        <div class="col-5 btn">
+                         <button class="toggle">Submit</button>
+                        </div>
+                     </div>
+                   
+                 <img class="owl" src="./img/favpng_dec094223f01b2ad67f5be6f7879209e.png" alt="img">
+
+
+                <!-- part 2 -->
+
                 <h1>Number Guessing Game!</h1>
-                <div class=" row game-box">
-                   <div class="number-box col-6">
-                      <h2>My Number is:</h2>
-                      <input  type="password" placeholder="Enter Number">
-                   </div>
-                   <div class="col-6 btn">
-                       <button class="btN">Submit</button>
-                   </div>
-                </div>
-                <img class="owl" src="./img/favpng_dec094223f01b2ad67f5be6f7879209e.png" alt="img">
+                
+                    <div class=" row game-box2">
+                        <div class="number-box2 col-7">
+                        <h2>Guess My Number!</h2>
+                        <input class="input2"  type="number" placeholder="Enter Number">
+                        </div>
+                        <div class="col-5 btn" style="display: flex; flex-direction: column;">
+                         <button class="toggle2">Submit</button>
+                         <button class="reset toggle2">Reset</button>
+                        </div>
+                     </div>
+                     <h2 class="msg"></h2>
+                 <img class="owl" src="./img/favpng_dec094223f01b2ad67f5be6f7879209e.png" alt="img">
            </section>
+
+
+           
         </header>
         <!-- Bootstrap JavaScript Bundle (includes Popper) -->
         <script
@@ -42,5 +65,6 @@
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"
         ></script>
+        <script src="./script.js"></script>
     </body>
 </html>

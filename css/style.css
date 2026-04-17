@@ -61,7 +61,7 @@
 #hero h2{
     font-size: 45px;
     color:var(--secondary);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding-left: 12px;
 }
 
@@ -73,7 +73,7 @@
     outline: none;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
     margin-bottom: 60px;
     border-radius: 8px;
     border: none;
@@ -98,7 +98,7 @@
   padding-top: 32px;
 }
 
-#hero .btN{
+#hero .toggle{
     background-color: var(--soft-orange);
     padding: 10px 80px;
     border: none;
@@ -107,10 +107,105 @@
     font-size: 22px;
 }
 
-#hero .btN:hover{
+#hero .toggle:hover{
     background-color:var(--soft-golden);
     cursor: pointer;
   }
+
+
+
+  /* hero two */
+
+
+#hero .game-box2 {
+    width: 700px;
+    padding: 30px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    translate: -40%;
+    left: 48%;
+    background-color: var(--bg-color);
+    border: 1px solid rgb(80, 77, 77);
+    display: none;
+}
+
+#hero .number-box2{
+    text-align: center;
+}
+
+#hero h1{
+    font-size: 65px;
+    color: var(--primary);
+    position: absolute;
+    top: 34%;
+    translate: 50%;
+}
+
+#hero h2{
+    font-size: 38px;
+    font-weight: 700;
+    color:var(--secondary);
+    margin-bottom: 30px;
+    padding-left: 12px;
+}
+
+#hero .number-box2 input{
+    width:200px;
+    background-color: var(--dark-glass);
+    color: var(--golden);
+    font-size: 35px;
+    outline: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    border: none;
+}
+
+#hero .number-box2 input:hover{
+    border: 1px solid var(--golden);
+    box-shadow: 0 0 8px var(--shadow);
+    cursor: pointer;
+}
+
+#hero .number-box2 input::placeholder{
+    font-size: 16px;
+    text-align: center;
+    color:var(--shadow) ;
+}
+
+#hero .btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+#hero .toggle2{
+    background-color: var(--soft-orange);
+    padding: 10px 80px;
+    border: none;
+    border-radius:10px;
+    color: var(--brown);
+    font-size: 22px;
+}
+
+#hero .toggle2:hover{
+    background-color:var(--soft-golden);
+    cursor: pointer;
+  }
+
+  #hero .reset{
+    margin-top: 20px;
+    padding: 8px 85px;
+    border: 1px solid transparent;
+  } 
+
+  
+
+
 
 
 
